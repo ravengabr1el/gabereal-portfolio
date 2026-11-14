@@ -133,6 +133,19 @@ button:hover{
   padding: 0 16px;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.video-grid iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+
+}
+
 @media (min-width: 768px) {
     header {
     display: flex;
